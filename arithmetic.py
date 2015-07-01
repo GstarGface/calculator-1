@@ -17,10 +17,11 @@ def cube(num1):
     return num1 * num1 * num1
 
 def power(num1, num2):
-    result = 1
-    for times in range(num2):
-        result *= num1
-    return result
+    #result = 1
+    #for times in range(num2):
+     #   result *= num1
+    #return result
+    return num1 ** num2
 
 
 def mod(num1, num2):
